@@ -82,7 +82,7 @@ public class UI {
 		}
 		
 		if (piece == null) {
-			System.out.print("-");
+			System.out.print("-" + ANSI_RESET);
 		}
 		else {
             if (piece.getColor() == Color.WHITE) {
